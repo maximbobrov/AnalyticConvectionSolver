@@ -2,6 +2,9 @@
 
 A single-file C++/OpenGL (GLUT) prototype simulating axisymmetric (r, z) buoyancy-driven convection. A localized buoyancy source at the bottom boundary drives a vorticity/velocity field through a relaxation solver. The project's name comes from its defining trait: the vorticity boundary condition isn't obtained by resolving the boundary layer numerically, it's taken from a closed-form (analytic) plume-scaling law.
 
+<img width="795" height="821" alt="image" src="https://github.com/user-attachments/assets/d2e56f2a-cc42-421f-960b-029dcf44fb28" />
+
+
 ## Physical model
 
 The domain uses cylindrical coordinates (r, z) on a `GRID_NR=100 x GRID_NZ=100` grid, with cell size `CELL_SIZE_R=CELL_SIZE_Z=0.1` m (10x10 m domain). `r=0` is the symmetry axis (left edge of the window).
